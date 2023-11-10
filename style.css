@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(14, 50, 233, 0.548);
+    background: url(Images/bg7.jpg);
+    border: solid rgb(65, 22, 22) 20px;
+    color: #1f0909;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(252, 248, 248);
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 35px;
+    margin: 10px 0 10px -10rem;
+    text-align: center;
+  }
+  .tit{
+    font-weight: 600;
+  }
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  #addForm,
+  #articleTable {
+    background-color:transparent;
+    background: url(Images/in2.jpg);
+    
+    margin-bottom: 40px;
+    margin-left: 8rem;
+    padding-left: 10rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 50rem;
+    border-radius: 25px;
+  }
+  input[type="text"],
+  textarea {
+    /* background: url(Images/bg2.png); */
+    width: 42rem;
+    background-color: #101010;
+    color: #f6f3f3;
+    border: solid rgb(248, 245, 245);
+    border-radius: 25px;
+    margin-bottom: 10px;
+    padding: 30px;
+  }
+  textarea#content {
+    padding-bottom: 200px;
+  }
+  button {
+    padding: 5px 20px;
+    background-color: rgb(1, 22, 22);
+    color: #fff;
+    border: solid black;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-right: 1rem;
+  }
+  button.btn-delete {
+    background-color: #f44336;
+  }
+  button:hover {
+    opacity: 0.5;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e7e7e7;
+  }
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+  th {
+    background-color: #111;
+    cursor: pointer;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .article-title {
+    cursor: pointer;
+  }
+  .article-content {
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    white-space: pre;
+    margin-top: 10px;
+  }
+  .options {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  

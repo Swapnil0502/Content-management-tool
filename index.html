@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CMT</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Content Management Tool</h1>
+        <div id="addForm">
+            <h2>Add Articles</h2>
+            <form>
+                <!-- <label for="title" class="tit">ADD YOUR TITLE:</label> -->
+                <input type="text" id="title" placeholder="ADD YOUR TITLE:"><br><br>
+                <!-- <label for="content" class="tit">ADD YOUR CONTENT:</label><br> -->
+                <textarea id="content" placeholder="ADD YOUR CONTENT:"></textarea><br><br>
+                <div class="options">
+                    <button id="addVideo">Add Videos</button>
+                    <button id="addImageUrl">Add Image through URL</button>
+                    <button id="addVideoUrl">Add Video through URL</button>
+                    <button id="addImage">Add  an Image</button>
+                </div>
+                <div class="btn-container">
+                    <button type="submit">Add</button>
+                </div>
+            </form>
+        </div>
+        <div id="articleTable">
+            <h2>Articles</h2>
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Content</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
+            <div id="articleContent"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
